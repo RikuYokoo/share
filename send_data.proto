@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package InfoShare;
+
+message SendData {
+  string send = 1;
+
+  int64 now_time = 2;
+}
